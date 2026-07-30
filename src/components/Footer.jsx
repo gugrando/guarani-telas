@@ -6,8 +6,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
         
         {/* Brand Col */}
-        <div className="flex flex-col gap-6">
-          <img src="/NomeLogo-V1.png" alt="Guarani Telas Logo" className="w-64 max-w-full brightness-0 invert" />
+        <div className="flex flex-col gap-6 items-start">
+          <img src="/NomeLogo-V1.png" alt="Guarani Telas Logo" className="h-20 md:h-24 w-auto object-contain" />
           <p className="text-gray-300 text-sm leading-relaxed">
             Especialistas em instalação de redes e construção de quadras com acabamento técnico e seguro em toda a região. Sua segurança é nossa maior prioridade.
           </p>
